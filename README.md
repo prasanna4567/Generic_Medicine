@@ -12,4 +12,8 @@ Doctor prescriptions mostly have only the drug name and strength, which is not e
 
 Objective of this project:
 
-Given name of the drug
+Given name of the drug, one will get all the other available alternative branded drugs and drug code of the generic medicine  with same composition.
+
+Dataset:
+Drug names, Manufacturing companies and composition: Scraped from https://www.medplusmart.com/
+Generic medicine drug codes and composition:  http://janaushadhi.gov.in/Data/pmbjp-book.pdf
