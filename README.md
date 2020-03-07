@@ -6,16 +6,20 @@ Pradhan Mantri Bhartiya Jan Aushadhi Pariyojana Kendra (PMBJPK) have been set up
 
 http://janaushadhi.gov.in/ProductList.aspx 
 
-Observations:
+###Observations:
+
 One needs to know drug's composition to find out which generic drug serves the purpose.
 Doctor prescriptions mostly have only the drug name and strength, which is not enough to retrieve the correct generic drug code.
 
-Objective of this project:
+###Objective of this project:
 
 Given name of the drug, one will get all the other available alternative branded drugs and drug code of the generic medicine  with same composition.
 
-Dataset:
+###Dataset:
 
 Drug names, Manufacturing companies and composition: Scraped from https://www.medplusmart.com/
+
+Credits: https://github.com/programmer290399/medplusmart.com-scrapper-
+
 
 Generic medicine drug codes and composition:  http://janaushadhi.gov.in/Data/pmbjp-book.pdf
