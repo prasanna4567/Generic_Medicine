@@ -19,7 +19,7 @@ Given name of the drug, one will get all the other available alternative branded
 
 Drug names, Manufacturing companies and composition: Scraped from https://www.medplusmart.com/
 
-Credits: https://github.com/programmer290399/medplusmart.com-scrapper-
+References: https://github.com/programmer290399/medplusmart.com-scrapper-
 
 
 Generic medicine drug codes and composition:  http://janaushadhi.gov.in/Data/pmbjp-book.pdf
