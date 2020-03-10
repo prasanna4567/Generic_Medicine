@@ -1,4 +1,4 @@
-# GenMedi
+# JanAushadhi
 
 A generic drug is a medication created to be the same as an already marketed brand-name drug in dosage form, safety, strength, route of administration, quality, performance characteristics, and intended use.
 
