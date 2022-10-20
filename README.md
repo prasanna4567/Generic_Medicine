@@ -11,7 +11,7 @@ http://janaushadhi.gov.in/ProductList.aspx
 #### Observations:
 
 One needs to know the drug's composition to find out which generic drug serves the purpose.
-Doctor prescriptions mostly have only the drug name and strength, which is not enough to retrieve the correct generic drug code.
+Doctor prescriptions mostly have only the drug name and strength, which is not enough to retrieve the correct generic drug composition.
 
 #### The Objective of this project:
 
