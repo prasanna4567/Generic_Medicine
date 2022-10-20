@@ -7,7 +7,7 @@
 
 ## Formatting
 
-the [IntelliJ Java style guide](./documents/style-guide-intellij.xml) into your project.
+the [IntelliJ style guide](./documents/style-guide-intellij.xml) into your project.
 
 * (IntelliJ) Preferences -> Code Style -> Click gear -> Import
 * (Visual Studio Code) -> Right Click -> Format Document
