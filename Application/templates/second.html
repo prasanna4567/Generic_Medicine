@@ -1,19 +1,24 @@
+<!doctype html>
 <html>
 
 <head>
     <title>Generic Medicine!</title>
-
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
     <link rel="stylesheet" href="static/css/bootstrap/bootstrap.min.css">
-    <script src="static/js/jquery/jquery.min.js"></script>
-    <script src="static/js/bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" crossorigin="anonymous"></script>
+    <script src="static/js/app.js"></script>
 </head>
 
 <body>
-    <h1>Welcome to Second page!</h1>
-    <BR />
-    <a href="/">Home</a>
+    <div style="width: 600px; margin: auto;">
+        <h2>Enter and select the brand of Medicine</h2>
+        <p style="width: 560px; margin: auto;">
+            <label>Search Here</label>&nbsp;&nbsp;<input type="text" name="search" id="searchBox" />
+        </p>
+    </div>
 </body>
-
-</html>

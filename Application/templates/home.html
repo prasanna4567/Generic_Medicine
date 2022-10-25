@@ -1,3 +1,6 @@
+{% from "macros.html" import SearchDescription %}
+{% from "macros.html" import ProductDescription %}
+
 <!DOCTYPE html>
 <html>
 
@@ -8,23 +11,29 @@
 
     <link rel="stylesheet" href="static/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="static/js/jquery/jquery.min.js"></script>
-    <script src="static/js/bootstrap/bootstrap.min.js"></script>
+    <script type=text/javascript src="static/js/bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" crossorigin="anonymous"></script>
+
+    <script type=text/javascript src="{{ url_for('static', filename='js/app.js') }}"></script>
 </head>
 
 <body>
     <h1>
-        <center>Collection</center>
+        <center>Medicine Brand Search</center>
     </h1>
     <form class="example" method="post" action="">
-        <input type="text" placeholder="Search by brand" name="search_name">
+
+        <label>Search Here</label>&nbsp;&nbsp;<input type="text" name="search" id="searchBox" />
+
         <button type="submit"><i class="fa fa-search"></i></button>
     </form>
 
     <p></p>
     {% if data |length !=0 %}
     <tr>
-        <td> {{data[0][0]}} : <b>{{data[0][1]}} </b></td>
+        <td> {{ SearchDescription(data[0]) }}</td>
         </br>
         </br>
         Results:
@@ -34,8 +43,7 @@
     <center>
         {% for obj in data[1:] %}
         <tr>
-            <td> {{obj[0]}} by {{obj[1]}}</td>
-            </br>
+            <td> {{ ProductDescription(obj) }}</td>
         </tr>
         {% endfor %}
     </center>

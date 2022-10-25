@@ -1,5 +1,10 @@
 body {
     margin: 20px !important;
+    background-image:  url("/static/img/background.jpg");
+}
+
+h1 {
+  font-family:verdana;
 }
 
 .collection {
