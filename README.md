@@ -16,6 +16,7 @@ Doctor prescriptions mostly have only the drug name and strength, which is not e
 ## The Objective of this project:
 
 Given the name of the drug, one will get all the other available alternative branded drugs and the drug code of the generic medicine with the same composition.
+Create TABLES Compositions and Medicines in a database "Med_Table.db".
 
 ## Dataset:
 
