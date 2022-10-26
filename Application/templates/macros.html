@@ -1,0 +1,11 @@
+{% macro ProductDescription(product) -%}
+    <p>
+        {{product[0]}} by {{product[1]}}
+    </p>
+{%- endmacro %}
+
+{% macro SearchDescription(product) -%}
+    <p>
+        {{product[0]}} : <b>{{product[1]}} </b>
+    </p>
+{%- endmacro %}
