@@ -35,7 +35,7 @@ Don't forget to give the project a star! Thanks again!
 #### `STEP 1` :  Fork [this](https://github.com/prasanna4567/Generic_Medicine.git) repository.
 #### `STEP 2` :  Clone your forked copy of the project.
 ```
-git clone https://github.com/<your_username>/Generic_Mediciner.git
+git clone https://github.com/<your_username>/Generic_Medicine.git
 ```
 #### `STEP 3` : Navigate to the project directory .
 ```
