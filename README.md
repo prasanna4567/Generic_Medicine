@@ -39,7 +39,7 @@ git clone https://github.com/<your_username>/Generic_Mediciner.git
 ```
 #### `STEP 3` : Navigate to the project directory .
 ```
-cd Generic_Mediciner
+cd Generic_Medicine
 ```
 #### `STEP 4` : Add a reference (remote) to the original repository.
 ```
