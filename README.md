@@ -73,7 +73,7 @@ git push -u origin <your_branch_name>
 #### `STEP 12` : To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repository you are supposed to make a PR to.
 #### `STEP 13` : Add appropriate title and description to your pull request explaining your changes and efforts done.
 #### `STEP 14` : Click on `Create Pull Request`.
-#### Voila! You have made a PR to the Generic_Mediciner. Sit back patiently and relax while your PR is reviewed
+#### Voila! You have made a PR to the Generic_Medicine. Sit back patiently and relax while your PR is reviewed
 ---
 ## Points to remember: 
 + #### Anyone who is sending a Pull Request make sure that you Refactor your code. 
