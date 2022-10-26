@@ -43,7 +43,7 @@ cd Generic_Medicine
 ```
 #### `STEP 4` : Add a reference (remote) to the original repository.
 ```
-git remote add upstream https://github.com/prasanna4567/Generic_Mediciner.git
+git remote add upstream https://github.com/prasanna4567/Generic_Medicine.git
 ```
 #### `STEP 5` : Check the remotes for this repository.
 ```
