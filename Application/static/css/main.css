@@ -46,4 +46,14 @@ h1 {
     clear: both;
     display: table;
   }
+
+  body {
+    width: 600px;
+    margin: auto;
+  }
+
+  p {
+    width: 560px;
+    margin: auto;
+  }
   
